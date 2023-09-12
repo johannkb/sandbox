@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id = "utskrift"></p>
+    <script>
+        const dyr = ["hund", "katt", "hest", "ku", "fisk", "bjorn", "hauk", "rev", "kanin", "hamster", "rotte"]
+        dyr.push("svin", "sau")
+
+        dyr.sort()
+
+        const AntallDyr = dyr.length
+
+        const text = `det er ${AntallDyr} dyr`
+
+        console.log(text)
+    </script>
+</body>
+</html>
