@@ -16,6 +16,11 @@
         const AntallDyr = dyr.length
 
         const text = `det er ${AntallDyr} dyr`
+        const setningToString = `Antall dyr: ${AntallDyr}. ${dyr.toString()}`
+        console.log("SETNING BYGGET MED .toString()")
+        console.log(setningToString)
+
+        document.getElementById("utskrift").innerHTML = setningToString
 
         console.log(text)
     </script>
